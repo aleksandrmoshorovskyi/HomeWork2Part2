@@ -145,7 +145,7 @@ let cityIndex = Int(arc4random() % UInt32(weatherInCities.count - 1))
 // виводимо ПОВНУ інформацію для кожного міста, що є у масиві weatherInCities
 print("---------- ЕКРАН 1 ----------")
 for index in 0 ..< weatherInCities.count {
-    let _ = index
+//  let _ = index
     let weatherInfo = weatherInCities[index]
     let city = weatherInfo.0
     let kelvin = weatherInfo.1
@@ -173,7 +173,7 @@ print("\n\n")
 // для кожного міста, що є у масиві weatherInCities
 print("---------- ЕКРАН 2 ----------")
 for index in 0 ..< weatherInCities.count {
-    let _ = index
+//  let _ = index
     let weatherInfo = weatherInCities[index]
     let city = weatherInfo.0
     let kelvin = weatherInfo.1
@@ -189,7 +189,7 @@ print("\n\n")
 // для кожного міста, що є у масиві weatherInCities
 print("---------- ЕКРАН 3 ----------")
 for index in 0 ..< weatherInCities.count {
-    let _ = index
+//  let _ = index
     let weatherInfo = weatherInCities[index]
     let city = weatherInfo.0
     let kelvin = weatherInfo.1
